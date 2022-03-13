@@ -33,7 +33,7 @@
                 "Microsoft.Web/serverfarms/frankdemoplan"
             ],
             "properties": {
-                "name": "frankdemo4243",
+                "name": "frankdemo42431226",
                 "serverFarmId": "[resourceId('Microsoft.Web/serverfarms/', 'frankdemoplan')]"
             }
         }
