@@ -7,7 +7,7 @@
         {
             "type": "Microsoft.Web/serverfarms",
             "apiVersion": "2016-09-01",
-            "name": "frankdemoplan",
+            "name": "frankdemoplan1226",
             "location": "[resourceGroup().location]",
             "sku": {
                 "name": "F1",
@@ -17,13 +17,13 @@
                 "displayName": "frankdemoplan"
             },
             "properties": {
-                "name": "frankdemoplan"
+                "name": "frankdemoplan1226"
             }
         },
         {
             "type": "Microsoft.Web/sites",
             "apiVersion": "2015-08-01",
-            "name": "frankdemo4243",
+            "name": "frankdemo42431226",
             "location": "[resourceGroup().location]",
             "tags": {
                 "[concat('hidden-related:', resourceGroup().id, '/providers/Microsoft.Web/serverfarms/frankdemoplan')]": "Resource",
