@@ -5,9 +5,7 @@
 
 pool:
   name: WinAgent
-  demands:
-   - agent.name -equals WinAgent  
-
+    
 variables:
   buildConfiguration: 'Release'
 
